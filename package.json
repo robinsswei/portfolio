@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio website",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path scss assets/scss/app.scss assets/styles/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinsswei/portfolio.git"
+  },
+  "author": "Robinsswei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinsswei/portfolio/issues"
+  },
+  "homepage": "https://github.com/robinsswei/portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.13.3"
+  }
+}
